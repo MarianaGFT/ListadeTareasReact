@@ -29,6 +29,7 @@ class App extends Component {
     this.setState({
       todos: [...this.state.todos, todo]
     })
+    console.log("Hola jony feo");
   }
 
   render() {
